@@ -1,1 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Lobster+Two&family=Poppins:ital,wght@0,100;1,100&family=Space+Mono&family=Vollkorn&family=Zeyada&display=swap');
+/*font-family: 'Catamaran', sans-serif;
+font-family: 'Lobster Two', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Space Mono', monospace;
+font-family: 'Vollkorn', serif;
+font-family: 'Zeyada', cursive;*/
 
+:root {
+	--negro: #282d33;
+	--rojo: #ec3642;
+	--fondo-tarjetas: #161616;
+	--color-gris: #777;
+	--fondo-gris: #f8f8f8;
+}
+
+body {
+	font-size: 14px;
+	font-family: 'Catamaran', sans-serif;
+	background-color: var(--negro) !important;
+}
+
+header {
+	position: relative;
+	background-color: var(--negro);
+	background-image: url("../img/header-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	top: 0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+section {
+	margin-bottom: 10vh;
+}
+
+.carousel-caption h5 {
+	width: max-content;
+	font-size: 8vh;
+}
+
+.btn-dark {
+	border: 5px;
+	border-color: #f8f8f8;
+}
+
+#cta {
+	background-image: url(../img/bg-parallax.png);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#hero-slides {
+
+}
+
+#intro {
+	background-color: var(--negro);
+}
+
+footer {
+	background-color: var(--fondo-footer);
+	background-image: url("../img/footer-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+footer p span {
+	color: var(--color-cafe);
+}
+
+footer #copy {
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+.titulos {
+	font-family: 'Catamaran', sans-serif;
+	color: var(--fondo-gris);
+	font-size: 2.5vw;
+	font-weight: bold;
+}
+
+.contenido {
+	font-family: 'Catamaran', sans-serif;
+	color: var(--fondo-gris);
+	font-size: 1.3vw;
+}
